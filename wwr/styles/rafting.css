@@ -57,8 +57,7 @@ article {
     text-align: center;
     background-color: var(--accent2-color);
     width: 625px;
-    opacity: 85%;
-}
+    opacity: 85%;}
 div {
     display: flex;
     flex-wrap: wrap;
@@ -69,6 +68,8 @@ section {
     position: relative;
 }
 h2 {
+    display: flex;
+    justify-content: center;
     color: var(--secondary-color);
     font-family: "Barlow Condensed", serif;
     font-weight: 500;
@@ -87,3 +88,33 @@ footer {
     color: black;
     text-decoration: none;
 }
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+.history-title {
+    grid-column: 1 / 4;
+}
+.adventure {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 50px 0;
+}
+.adventure-title {
+    grid-column: 1 / 6;
+}
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+}
+figcaption {
+    font-family: "Barlow Condensed", serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 3px;
+    text-align: center;
+  }
