@@ -6,7 +6,7 @@
 }
 * {
     max-width: 1250px;
-    margin: 10px;
+    margin: 5px;
 }
 nav a {
     font-family: "Barlow Condensed", serif;
@@ -24,13 +24,14 @@ img#hero {
     margin-top: 0;
 }
 h1 {
+    display: flex;
+    justify-content: center;
     text-align: center;
     position: relative;
     padding-bottom: 10px;
-    margin-bottom: 100px;
     background-color: var(--accent1-color);
     opacity: 75%;
-    width: 1250px;
+    width: 100%;
     color: var(--primary-color);
     font-family: "Barlow Condensed", serif;
     font-weight: 500;
@@ -38,16 +39,19 @@ h1 {
     font-size: 70px;
 }
 article {
-    margin-left: 315px;
-    align-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
     text-align: center;
-    position: relative;
     background-color: var(--accent2-color);
     width: 625px;
     opacity: 85%;
 }
 div {
-    padding-bottom: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 400px;
 }
 section {
     position: relative;
