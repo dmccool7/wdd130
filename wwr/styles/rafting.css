@@ -8,12 +8,24 @@
     max-width: 1250px;
     margin: 5px;
 }
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid var(--primary-color);
+    width: 1250px;
+}
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 nav a {
     font-family: "Barlow Condensed", serif;
     font-weight: 100;
     font-style: normal;
     color: black;
-    padding: 5px;
     text-decoration: none;
 }
 img#hero {
@@ -36,7 +48,7 @@ h1 {
     font-family: "Barlow Condensed", serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 70px;
+    font-size: xxx-large;
 }
 article {
     display: flex;
@@ -61,7 +73,7 @@ h2 {
     font-family: "Barlow Condensed", serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 30px;
+    font-size: x-large;
 }
 p {
     font-family: "Barlow Condensed", serif;
@@ -72,4 +84,6 @@ footer {
     font-family: "Barlow Condensed", serif;
     font-weight: 100;
     font-style: normal;
+    color: black;
+    text-decoration: none;
 }
