@@ -141,4 +141,11 @@ figcaption {
   }
   button:hover {
     background-color: var(--accent2-color);
-}
+  }
+  .contact {
+    text-align: center;
+  }
+  .map {
+    display: flex;
+    justify-content: center;
+  }
