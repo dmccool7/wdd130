@@ -58,7 +58,7 @@ article {
     background-color: var(--accent2-color);
     width: 625px;
     opacity: 85%;}
-div {
+.hero {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -66,6 +66,7 @@ div {
 }
 section {
     position: relative;
+    text-align: center;
 }
 h2 {
     display: flex;
@@ -82,6 +83,8 @@ p {
     font-style: normal;
 }
 footer {
+    margin-top: 50px;
+    border-top: double;
     font-family: "Barlow Condensed", serif;
     font-weight: 100;
     font-style: normal;
@@ -124,3 +127,18 @@ figcaption {
     padding: 3px;
     text-align: center;
   }
+  form {
+    font-family: "Barlow Condensed", serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 400px;
+    box-sizing: border-box;
+  }
+  button {
+    font-family: "Barlow Condensed", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  button:hover {
+    background-color: var(--accent2-color);
+}
